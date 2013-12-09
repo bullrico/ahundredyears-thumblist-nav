@@ -1,0 +1,25 @@
+h4 {
+  text-align: center;
+}
+
+/* Styles specific to this particular page */
+.thumblist-nav {
+  height: 200px;
+}
+
+.horizontal-only {
+  max-height: 200px;
+}
+
+.jspPane > div {
+  border: 1px solid #ddd;
+  width: 350px;
+}
+
+.jspDrag {
+  background: blue;
+}
+
+.jspDrag:hover {
+  background: green;
+}
