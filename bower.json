@@ -1,11 +1,11 @@
 {
-  "name": "ahundredyears-thumbs-nav",
+  "name": "ahundredyears-thumblist-nav",
   "version": "0.0.0",
   "homepage": "https://github.com/bullrico/ahundredyears-thumblist-nav",
   "authors": [
     "Bobby Santiago <bobby@100yea.rs>"
   ],
-  "main": "./src/ahundredyears-thumbs-nav.js",
+  "main": "./src/ahundredyears-thumblist-nav.js",
   "license": "MIT",
   "private": true,
   "dependencies": {
