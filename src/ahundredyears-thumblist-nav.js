@@ -15,18 +15,17 @@ angular.module('ahundredyears.thumblist-nav')
     var config = {
       showArrows: false
     };
-    scope.pane = $('.thumblist-nav');
-    scope.pane.jScrollPane(config);
-  };
 
-  var controller = function($scope, $element){
-
+    // TODO Use a promise
+    setTimeout(function() {
+      scope.pane = $('.thumblist-nav');
+      scope.pane.jScrollPane(config);
+    }, 200);
   };
 
   return {
     restrict: "E",
     link: link,
-    controller: controller,
     template: "<div class='thumblist-nav horizontal-only' ng-transclude></div>",
     transclude: true,
     replace: true
