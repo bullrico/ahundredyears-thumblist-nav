@@ -20,7 +20,7 @@ angular.module('ahundredyears.thumblist-nav')
     setTimeout(function() {
       scope.pane = $('.thumblist-nav');
       scope.pane.jScrollPane(config);
-    }, 200);
+    }, 1400);
   };
 
   return {
